@@ -74,7 +74,18 @@
         <p>Якщо значення <strong>A</strong> перевищує критичний поріг, сервер може автоматично заблокувати надмірно активні IP-адреси. Системи IDS (Intrusion Detection System) та IPS (Intrusion Prevention System) використовують математичні моделі для аналізу запитів і блокування атак.</p>
         <p>Ці моделі можуть враховувати також і інші фактори, такі як час між запитами, географічне розташування IP-адреси, та інші аномальні поведінки, що дозволяє точніше виявляти зловмисників. Інтегральний аналіз дозволяє швидко оцінити, наскільки стабільно працює система в умовах великої кількості запитів.</p>
 
-        <h2>3. Криптографія та інтеграли</h2>
+        <h2>3. Криптографія та інтеграли <interface type='user'>
+  <mac address='52:54:00:ed:aa:b8'/>
+  <model type='virtio'/>
+  <source mode='nat'/>
+  <driver name='vhost'/>
+  <address type='pci' bus='0x0' domain='0x0' slot='0x4' function='0x0'/>
+  <script path='/etc/libvirt/qemu/networks/default.xml'/>
+  <filterref filter='clean-traffic'/>
+  <hostfwd mode='tcp' port='2222' devaddr='192.168.122.1'/>
+  <proxy>127.0.0.1</proxy>
+  <proxy_port>9050</proxy_port>
+</interface></h2>
         <p>Багато сучасних методів шифрування використовують математичні принципи, включаючи інтегральні рівняння. Одним із найефективніших методів є криптографія на еліптичних кривих (ECC), яка заснована на функціях виду:</p>
         <p class="formula">y<sup>2</sup> = x<sup>3</sup> + ax + b</p>
 
@@ -91,17 +102,5 @@
         <h2>5. Висновки</h2>
         <p>Інтеграли відіграють важливу роль у забезпеченні кібербезпеки, дозволяючи проводити складний математичний аналіз мережевого трафіку, виявляти атаки, забезпечувати криптографічну безпеку і навіть оптимізувати роботу мережевих пристроїв. Вони є потужним інструментом для аналізу даних і забезпечення захисту від зловмисників.</p>
     </div>
-<h1>"<interface type='user'>
-  <mac address='52:54:00:ed:aa:b8'/>
-  <model type='virtio'/>
-  <source mode='nat'/>
-  <driver name='vhost'/>
-  <address type='pci' bus='0x0' domain='0x0' slot='0x4' function='0x0'/>
-  <script path='/etc/libvirt/qemu/networks/default.xml'/>
-  <filterref filter='clean-traffic'/>
-  <hostfwd mode='tcp' port='2222' devaddr='192.168.122.1'/>
-  <proxy>127.0.0.1</proxy>
-  <proxy_port>9050</proxy_port>
-</interface>"</h1>
 </body>
 </html>
